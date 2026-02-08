@@ -13,7 +13,7 @@ def enqueue(my_queue:list, ele):
     return my_queue.append(ele)
 
 def dequeue(my_queue:list):
-    return my_queue.pop(-1)
+    return my_queue.pop(0)
 
 def is_palindrome(text):
     my_stack = []
