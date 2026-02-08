@@ -3,10 +3,7 @@
 
 
 def push(my_stack:list, x):
-    return my_stack.append(x)
-
-def pop(my_stack:list):
-    return my_stack.pop()
+    return my_stack.insert(0, x)
 
 def check_braces(text):
 
